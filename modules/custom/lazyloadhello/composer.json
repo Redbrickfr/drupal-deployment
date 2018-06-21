@@ -1,0 +1,14 @@
+{
+  "name": "drupal/lazyloadhello",
+  "type": "drupal-module",
+  "description": "lazyloadblock",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/lazyloadhello",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/lazyloadhello",
+    "source": "http://cgit.drupalcode.org/lazyloadhello"
+  },
+  "require": { }
+}

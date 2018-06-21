@@ -1,0 +1,10 @@
+name: zurb2ive
+type: theme
+description: 'awesome zurb2ive'
+package: zurb2ive
+core: 8.x
+libraries:
+  - zurb2ive/global-styling
+ 
+base theme: zurb_foundation
+

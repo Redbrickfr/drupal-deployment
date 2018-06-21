@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains lazyloadhello.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lazyloadhello_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the lazyloadhello module.
+    case 'help.page.lazyloadhello':
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('lazyloadblock') . '</p>';
+      return $output;
+
+    default:
+  }
+}

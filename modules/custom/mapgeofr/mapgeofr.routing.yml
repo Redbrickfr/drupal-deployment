@@ -1,0 +1,8 @@
+mapgeofr.geo_controller_commune:
+  path: '/commune/{code_commune}'
+  defaults:
+    _controller: '\Drupal\mapgeofr\Controller\GeoController::commune'
+    _title_callback: '\Drupal\mapgeofr\Controller\GeoController::commune_title'
+    code_commune: null
+  requirements:
+    _permission: 'access content'

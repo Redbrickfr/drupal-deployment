@@ -1,0 +1,3 @@
+services:
+  blockpipe: #declaration du nom de notre service
+    class: Drupal\blockpipe\LazyPipeContent #le service instanciera cette classe
