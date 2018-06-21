@@ -30,7 +30,8 @@
         "drupal/feeds_ex": "^1.0",
         "ayctor/geoapifr": "^0.0.1",
         "drupal/eck": "^1.0",
-        "drupal/diff": "^1.0"
+        "drupal/diff": "^1.0",
+        "drupal/hook_event_dispatcher": "^1.18"
     },
     "replace": {
         "drupal/core": "^8.5"
