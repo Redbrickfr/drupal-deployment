@@ -1,0 +1,28 @@
+uuid: 5aa8f3a2-4ae7-4734-84fa-78273e41aad7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tweets
+    - media.type.twitter
+    - node.type.hotel
+id: node.hotel.field_tweets
+field_name: field_tweets
+entity_type: node
+bundle: hotel
+label: Tweets
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      twitter: twitter
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

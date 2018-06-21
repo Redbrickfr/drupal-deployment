@@ -1,0 +1,14 @@
+uuid: bff56473-c018-42ae-96a5-580b89373443
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.le_monde_ive_nav
+id: term_nav_lemonde_ive
+label: 'term nav lemonde ive'
+vocabulary: le_monde_ive_nav
+menu: main
+expanded: false
+depth: 0
+menu_parent: 'main:'

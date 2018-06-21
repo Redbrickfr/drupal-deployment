@@ -1,0 +1,12 @@
+uuid: 182e95cc-4546-4135-ba09-79ba34400b1f
+langcode: fr
+status: true
+dependencies: {  }
+id: front_lemonde_ive
+label: 'front lemonde ive'
+description: ''
+use_admin_theme: false
+path: /lemondeive
+access_logic: and
+access_conditions: {  }
+parameters: {  }

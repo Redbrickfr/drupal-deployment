@@ -1,0 +1,32 @@
+uuid: b5b7527f-3009-473f-ad10-9a259a0ced3e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.restaurant.field_classification_restaurant
+    - field.field.node.restaurant.field_description_restaurant
+    - field.field.node.restaurant.field_hotel
+    - field.field.node.restaurant.field_hotel_de_reference
+    - field.field.node.restaurant.field_images_restaurant
+    - field.field.node.restaurant.field_img_resto_prive
+    - node.type.restaurant
+  module:
+    - user
+id: node.restaurant.teaser
+targetEntityType: node
+bundle: restaurant
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_classification_restaurant: true
+  field_description_restaurant: true
+  field_hotel: true
+  field_hotel_de_reference: true
+  field_images_restaurant: true
+  field_img_resto_prive: true
+  langcode: true

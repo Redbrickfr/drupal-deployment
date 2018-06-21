@@ -1,0 +1,64 @@
+uuid: 114fef76-fea9-4944-a731-9cc7e56272ee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - eck.eck_type.helloecktest.helloecktest_article
+    - field.field.helloecktest.helloecktest_article.field_images
+    - field.field.helloecktest.helloecktest_article.field_texte_article_helloecktest
+  module:
+    - text
+id: helloecktest.helloecktest_article.default
+targetEntityType: helloecktest
+bundle: helloecktest_article
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_images:
+    weight: 12
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_texte_article_helloecktest:
+    weight: 11
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

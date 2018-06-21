@@ -1,0 +1,22 @@
+uuid: 0791d988-6161-466a-89e9-24bd8bfd04f0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - zurbive
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: zurbive_help
+theme: zurbive
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

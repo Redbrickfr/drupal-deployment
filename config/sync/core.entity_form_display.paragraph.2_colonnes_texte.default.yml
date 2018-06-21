@@ -1,0 +1,52 @@
+uuid: f3c9b3c1-0547-4569-b990-0e66f6d31af3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_colonnes_texte.field_ref_hotels_col
+    - field.field.paragraph.2_colonnes_texte.field_texte_droite_col
+    - field.field.paragraph.2_colonnes_texte.field_texte_gauche_col
+    - paragraphs.paragraphs_type.2_colonnes_texte
+  module:
+    - content_moderation
+    - text
+id: paragraph.2_colonnes_texte.default
+targetEntityType: paragraph
+bundle: 2_colonnes_texte
+mode: default
+content:
+  field_ref_hotels_col:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_texte_droite_col:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_texte_gauche_col:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,11 @@
+uuid: 310719da-6c17-4892-8f98-22ae02c257c9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.le_monde_ive_nav
+id: taxonomy_term.le_monde_ive_nav
+target_entity_type_id: taxonomy_term
+target_bundle: le_monde_ive_nav
+default_langcode: site_default
+language_alterable: false

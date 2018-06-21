@@ -1,0 +1,28 @@
+uuid: 4a20409d-ba94-499b-80b1-14ab7be07d93
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ville.body
+    - node.type.ville
+  module:
+    - text
+    - user
+id: node.ville.default
+targetEntityType: node
+bundle: ville
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

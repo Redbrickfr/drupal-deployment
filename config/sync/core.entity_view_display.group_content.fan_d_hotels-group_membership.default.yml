@@ -1,0 +1,24 @@
+uuid: 1e7e71d5-5195-4406-ac33-bbd5f3858c7c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group_content.fan_d_hotels-group_membership.group_roles
+    - group.content_type.fan_d_hotels-group_membership
+id: group_content.fan_d_hotels-group_membership.default
+targetEntityType: group_content
+bundle: fan_d_hotels-group_membership
+mode: default
+content:
+  group_roles:
+    label: above
+    type: entity_reference_label
+    settings:
+      link: false
+    weight: -4
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_id: true
+  langcode: true
+  uid: true

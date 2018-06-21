@@ -1,0 +1,70 @@
+uuid: 61ae3220-70c6-4089-862a-ceb48fcf853a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.hotel.field_categorie_hotel
+    - field.field.node.hotel.field_description_hotel
+    - field.field.node.hotel.field_hotel_photos
+    - field.field.node.hotel.field_photos_privees
+    - field.field.node.hotel.field_tweets
+    - field.field.node.hotel.field_type_hotel
+    - image.style.thumbnail
+    - node.type.hotel
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.hotel.full
+targetEntityType: node
+bundle: hotel
+mode: full
+content:
+  field_categorie_hotel:
+    type: list_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_description_hotel:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_hotel_photos:
+    type: image
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+  field_photos_privees:
+    type: image
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+  field_type_hotel:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_tweets: true
+  langcode: true
+  like_and_dislike: true
+  links: true

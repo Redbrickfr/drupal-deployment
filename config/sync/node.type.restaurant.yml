@@ -1,0 +1,17 @@
+uuid: 6943d840-d3da-4bdd-94e6-9e6548049e28
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Restaurant
+type: restaurant
+description: 'Permet de créer une fiche restaurant.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

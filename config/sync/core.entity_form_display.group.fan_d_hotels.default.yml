@@ -1,0 +1,51 @@
+uuid: 52303ba7-a853-4b40-b224-1e20e02bdccd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group.fan_d_hotels.field_hotels
+    - group.type.fan_d_hotels
+  module:
+    - inline_entity_form
+    - path
+id: group.fan_d_hotels.default
+targetEntityType: group
+bundle: fan_d_hotels
+mode: default
+content:
+  field_hotels:
+    weight: 1
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

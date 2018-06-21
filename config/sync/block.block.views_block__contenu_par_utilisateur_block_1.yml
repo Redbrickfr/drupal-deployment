@@ -1,0 +1,31 @@
+uuid: fc6a154d-c64f-4aed-9a39-b3562b7dad85
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.contenu_par_utilisateur
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - bartik
+id: views_block__contenu_par_utilisateur_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:contenu_par_utilisateur-block_1'
+settings:
+  id: 'views_block:contenu_par_utilisateur-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

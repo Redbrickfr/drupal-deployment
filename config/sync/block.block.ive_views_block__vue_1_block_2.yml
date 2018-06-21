@@ -1,0 +1,24 @@
+uuid: 337fa7b7-ac64-4123-9e65-d68b59c95f66
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vue_1
+  module:
+    - views
+  theme:
+    - ive
+id: ive_views_block__vue_1_block_2
+theme: ive
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:vue_1-block_2'
+settings:
+  id: 'views_block:vue_1-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

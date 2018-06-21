@@ -1,0 +1,18 @@
+uuid: c1d8d587-e6a3-4b7b-baa1-f39eaa4d2626
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.restaurant
+id: node.restaurant.changed
+field_name: changed
+entity_type: node
+bundle: restaurant
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

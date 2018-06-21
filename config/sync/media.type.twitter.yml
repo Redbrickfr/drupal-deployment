@@ -1,0 +1,23 @@
+uuid: 944e0cf3-1a4a-430a-a1a6-d276b4d4c964
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity_twitter
+id: twitter
+label: twitter
+description: ''
+source: twitter
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_twitter
+  use_twitter_api: false
+  generate_thumbnails: true
+  consumer_key: ''
+  consumer_secret: ''
+  oauth_access_token: ''
+  oauth_access_token_secret: ''
+field_map:
+  id: field_media_twitter
+  user: name

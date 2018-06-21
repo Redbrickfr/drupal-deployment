@@ -1,0 +1,20 @@
+uuid: 499d1bf2-350c-49eb-a0ed-d6c832d3cf24
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.twitter
+id: media.twitter.name
+field_name: name
+entity_type: media
+bundle: twitter
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,16 @@
+uuid: 35fe5d1d-f209-43f5-80dd-f2f87c51ddcf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.fan_d_hotels
+id: fan_d_hotels-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: fan_d_hotels
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'join group'

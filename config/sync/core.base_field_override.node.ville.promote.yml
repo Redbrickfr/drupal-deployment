@@ -1,0 +1,22 @@
+uuid: bdeb7707-4b3c-4c84-84c8-c68f78a00429
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ville
+id: node.ville.promote
+field_name: promote
+entity_type: node
+bundle: ville
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

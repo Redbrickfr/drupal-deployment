@@ -1,0 +1,30 @@
+uuid: 1222ab65-3ecd-4347-9ce7-c87ac63f1bcb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article_lemonde.body
+    - node.type.article_lemonde
+  module:
+    - text
+    - user
+id: node.article_lemonde.teaser
+targetEntityType: node
+bundle: article_lemonde
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

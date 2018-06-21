@@ -1,0 +1,43 @@
+uuid: 8ae5e9d2-0c38-43da-a6bd-c85ca9a43355
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_hotles
+  module:
+    - block_scheduler
+    - block_visibility_groups
+    - system
+    - views
+  theme:
+    - zurb_foundation
+id: zurb_foundation_views_block__slideshow_hotles_block_1
+theme: zurb_foundation
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:slideshow_hotles-block_1'
+settings:
+  id: 'views_block:slideshow_hotles-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  expiry:
+    id: expiry
+    start: 1526543160
+    end: ''
+    negate: false
+    context_mapping: {  }

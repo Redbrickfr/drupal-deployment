@@ -1,0 +1,19 @@
+uuid: 64acb38d-6d65-4dc1-8099-bcfa540276a6
+langcode: fr
+status: true
+dependencies: {  }
+id: contributeur
+label: Contributeur
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access toolbar'
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition en_attente_de_validation'
+  - 'use editorial transition rejet_de_validation'
+  - 'use editorial transition validation'
+  - 'view own unpublished content'

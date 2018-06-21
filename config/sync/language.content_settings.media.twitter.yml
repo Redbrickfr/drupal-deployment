@@ -1,0 +1,18 @@
+uuid: 343baadf-c4dd-4eea-ac16-a44a5abb5978
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.twitter
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: media.twitter
+target_entity_type_id: media
+target_bundle: twitter
+default_langcode: site_default
+language_alterable: false

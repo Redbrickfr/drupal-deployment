@@ -1,0 +1,12 @@
+uuid: 58f4a443-f8e8-43a7-b05d-f2904160f537
+langcode: fr
+status: true
+dependencies: {  }
+id: contact_legale
+label: 'contact légal'
+recipients:
+  - abonsard@gmail.com
+reply: ''
+weight: 0
+message: 'Merci !'
+redirect: ''

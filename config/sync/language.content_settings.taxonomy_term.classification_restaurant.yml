@@ -1,0 +1,18 @@
+uuid: ce37895b-3729-487e-a64e-d73c20e684d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.classification_restaurant
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.classification_restaurant
+target_entity_type_id: taxonomy_term
+target_bundle: classification_restaurant
+default_langcode: site_default
+language_alterable: false

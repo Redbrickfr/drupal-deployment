@@ -1,0 +1,25 @@
+uuid: b5c37fc7-4566-4336-aab0-58261167815e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotels
+  module:
+    - views
+  theme:
+    - zurb_foundation
+id: zurb_foundation_views_block__hotels_block_2
+theme: zurb_foundation
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:hotels-block_2'
+settings:
+  id: 'views_block:hotels-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

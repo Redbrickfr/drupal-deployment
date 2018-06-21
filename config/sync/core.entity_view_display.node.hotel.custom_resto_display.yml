@@ -1,0 +1,41 @@
+uuid: b1c93211-a588-4bea-9422-95d86e7576ab
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.custom_resto_display
+    - field.field.node.hotel.field_categorie_hotel
+    - field.field.node.hotel.field_description_hotel
+    - field.field.node.hotel.field_hotel_photos
+    - field.field.node.hotel.field_photos_privees
+    - field.field.node.hotel.field_tweets
+    - field.field.node.hotel.field_type_hotel
+    - image.style.hotel1
+    - node.type.hotel
+  module:
+    - image
+    - user
+id: node.hotel.custom_resto_display
+targetEntityType: node
+bundle: hotel
+mode: custom_resto_display
+content:
+  field_hotel_photos:
+    weight: 0
+    label: above
+    settings:
+      image_style: hotel1
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  addtoany: true
+  field_categorie_hotel: true
+  field_description_hotel: true
+  field_photos_privees: true
+  field_tweets: true
+  field_type_hotel: true
+  langcode: true
+  like_and_dislike: true
+  links: true

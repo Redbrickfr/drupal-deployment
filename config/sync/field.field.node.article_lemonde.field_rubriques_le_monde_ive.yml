@@ -1,0 +1,29 @@
+uuid: 4f37d8e9-b8fc-4415-bf58-2b2f7df7f530
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rubriques_le_monde_ive
+    - node.type.article_lemonde
+    - taxonomy.vocabulary.le_monde_ive_nav
+id: node.article_lemonde.field_rubriques_le_monde_ive
+field_name: field_rubriques_le_monde_ive
+entity_type: node
+bundle: article_lemonde
+label: 'rubriques le monde ive'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      le_monde_ive_nav: le_monde_ive_nav
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

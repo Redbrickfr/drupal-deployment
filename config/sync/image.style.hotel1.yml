@@ -1,0 +1,14 @@
+uuid: 825bf52d-ba69-49d8-b7b3-adb3889aa843
+langcode: fr
+status: true
+dependencies: {  }
+name: hotel1
+label: hotel1
+effects:
+  b3767871-4741-47b9-87a0-9223d953b72a:
+    uuid: b3767871-4741-47b9-87a0-9223d953b72a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300

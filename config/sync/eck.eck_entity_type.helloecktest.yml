@@ -1,0 +1,10 @@
+uuid: e0c286de-a884-45f8-a443-ddf049edc993
+langcode: fr
+status: true
+dependencies: {  }
+id: helloecktest
+label: helloecktest
+created: true
+changed: true
+uid: true
+title: true

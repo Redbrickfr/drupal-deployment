@@ -1,0 +1,31 @@
+uuid: bd7ebaf6-283d-4011-84d5-3c30b64c7846
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:60a70b8b-690e-443c-af0d-fd3991cb9388'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - ive
+id: jesuisunblocive
+theme: ive
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:60a70b8b-690e-443c-af0d-fd3991cb9388'
+settings:
+  id: 'block_content:60a70b8b-690e-443c-af0d-fd3991cb9388'
+  label: 'je suis un bloc ive'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

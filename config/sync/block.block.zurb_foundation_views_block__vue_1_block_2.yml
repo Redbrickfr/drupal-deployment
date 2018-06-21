@@ -1,0 +1,24 @@
+uuid: 2d593666-8713-4f8a-ae1f-13f0a499e22b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vue_1
+  module:
+    - views
+  theme:
+    - zurb_foundation
+id: zurb_foundation_views_block__vue_1_block_2
+theme: zurb_foundation
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:vue_1-block_2'
+settings:
+  id: 'views_block:vue_1-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

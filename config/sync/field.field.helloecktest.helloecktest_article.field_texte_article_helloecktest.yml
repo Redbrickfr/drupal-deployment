@@ -1,0 +1,22 @@
+uuid: 98177332-c3f6-407f-9ecf-4e9a195826df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - eck.eck_type.helloecktest.helloecktest_article
+    - field.storage.helloecktest.field_texte_article_helloecktest
+  module:
+    - text
+id: helloecktest.helloecktest_article.field_texte_article_helloecktest
+field_name: field_texte_article_helloecktest
+entity_type: helloecktest
+bundle: helloecktest_article
+label: 'Texte article helloecktest'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

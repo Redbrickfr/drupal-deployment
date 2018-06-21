@@ -1,0 +1,20 @@
+uuid: 3e9c4d65-6116-424b-972f-219a6c06af5d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - tinypng
+third_party_settings:
+  tinypng:
+    tinypng_compress: 1
+name: ive_wide
+label: 'Ive wide'
+effects:
+  16624dda-999c-46c4-a07a-1554861f6625:
+    uuid: 16624dda-999c-46c4-a07a-1554861f6625
+    id: image_scale
+    weight: 1
+    data:
+      width: 425
+      height: null
+      upscale: false

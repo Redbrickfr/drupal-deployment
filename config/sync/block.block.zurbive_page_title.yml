@@ -1,0 +1,27 @@
+uuid: a03b6aa4-17da-49cf-980f-e2056c5cbbe5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+  theme:
+    - zurbive
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: zurbive_page_title
+theme: zurbive
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

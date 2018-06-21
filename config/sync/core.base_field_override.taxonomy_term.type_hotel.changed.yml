@@ -1,0 +1,18 @@
+uuid: 0a163a72-50ab-4f3a-9433-d35a8d8025ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_hotel
+id: taxonomy_term.type_hotel.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: type_hotel
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

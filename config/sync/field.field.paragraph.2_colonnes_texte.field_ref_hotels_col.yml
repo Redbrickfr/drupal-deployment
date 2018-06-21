@@ -1,0 +1,28 @@
+uuid: 7c72695a-e334-4e09-b934-d867281ed232
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ref_hotels_col
+    - node.type.hotel
+    - paragraphs.paragraphs_type.2_colonnes_texte
+id: paragraph.2_colonnes_texte.field_ref_hotels_col
+field_name: field_ref_hotels_col
+entity_type: paragraph
+bundle: 2_colonnes_texte
+label: 'ref hotels col'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

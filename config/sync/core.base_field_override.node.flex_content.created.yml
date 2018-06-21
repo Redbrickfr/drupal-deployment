@@ -1,0 +1,18 @@
+uuid: e40ce6cc-c517-4cbb-9d6e-f18ea7f1711c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.flex_content
+id: node.flex_content.created
+field_name: created
+entity_type: node
+bundle: flex_content
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

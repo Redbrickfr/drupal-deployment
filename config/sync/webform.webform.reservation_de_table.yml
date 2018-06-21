@@ -1,0 +1,175 @@
+uuid: da1b3dc4-c770-4dcc-83ca-9c2d81621927
+langcode: fr
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: reservation_de_table
+title: 'Réservation de table'
+description: ''
+category: ''
+elements: "informations_personnelles:\n  '#type': webform_wizard_page\n  '#title': 'Informations personnelles'\n  '#next_button_label': 'Choix du restaurant'\n  nom:\n    '#type': textfield\n    '#title': Nom\n    '#required': true\n  prenom:\n    '#type': textfield\n    '#title': Prénom\n    '#required': true\n  telephone:\n    '#type': tel\n    '#title': Téléphone\n    '#required': true\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\nchoix_du_restaurant:\n  '#type': webform_wizard_page\n  '#title': 'Choix du restaurant'\n  '#prev_button_label': 'Informations personnelles'\n  '#next_button_label': 'Laisser un commentaire'\n  restaurant:\n    '#type': webform_entity_select\n    '#title': Restaurant\n    '#target_type': node\n    '#selection_handler': 'default:node'\n    '#selection_settings':\n      target_bundles:\n        restaurant: restaurant\n    '#required': true\n  nombre_de_personnes:\n    '#type': number\n    '#title': 'Nombre de personnes'\n    '#required': true\n  date_de_reservertion:\n    '#type': datetime\n    '#title': 'Date de réservertion'\n    '#date_timezone': Europe/Paris\n    '#date_year_range': '1'\n    '#date_time_element': timepicker\n    '#date_time_min': '19:00:00'\n    '#date_time_max': '23:00:00'\n    '#date_time_step': '900'\n    '#required': true\nlaisser_un_commentaire:\n  '#type': webform_wizard_page\n  '#title': 'Laisser un commentaire'\n  '#prev_button_label': 'Choix du restaurant'\n  commentaire:\n    '#type': textarea\n    '#title': Commentaire\n"
+css: ''
+javascript: ''
+settings:
+  ajax: true
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_login: false
+  form_login_message: ''
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  submission_login: false
+  submission_login_message: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: modal
+  confirmation_title: 'Merciii !'
+  confirmation_message: 'Merci de votre r&eacute;servation, votre table sera pr&ecirc;te.'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  confirmation_de_reservation:
+    id: email
+    label: 'Confirmation de réservation'
+    handler_id: confirmation_de_reservation
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: default
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''

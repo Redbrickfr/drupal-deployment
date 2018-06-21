@@ -1,0 +1,118 @@
+definitions:
+  contact__site_page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 10
+    expanded: false
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
+  hello__page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    expanded: false
+    weight: 0
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__22':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__16':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__17':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__12':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__21':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__18':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__13':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__20':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__14':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__19':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__term_nav_lemonde_ive__15':
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+  performance_tests__cache_render_explorer:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  performance_tests__cache_page_explorer:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  performance_tests__cache_dynamic_page_cache:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  performance_tests__cached_page_example_1:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  performance_tests__cached_page_example_2:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: fr

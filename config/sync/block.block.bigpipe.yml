@@ -1,0 +1,26 @@
+uuid: daa35cd7-8e32-49fd-81d9-139a5cc5f18c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - blockpipe
+  theme:
+    - zurbive
+id: bigpipe
+theme: zurbive
+region: sidebar_first
+weight: 0
+provider: null
+plugin: lazy_block
+settings:
+  id: lazy_block
+  label: 'Big Pipe'
+  provider: blockpipe
+  label_display: visible
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: e79fa4a6-26fe-4108-b0f1-8adeab965fb9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_introduction_article
+    - node.type.article_lemonde
+  module:
+    - text
+id: node.article_lemonde.field_introduction_article
+field_name: field_introduction_article
+entity_type: node
+bundle: article_lemonde
+label: 'Introduction article'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

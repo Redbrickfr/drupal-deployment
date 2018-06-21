@@ -1,0 +1,39 @@
+uuid: e9c777be-1e88-4886-af1a-d49b75e65a4b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_colonnes_texte.field_ref_hotels_col
+    - field.field.paragraph.2_colonnes_texte.field_texte_droite_col
+    - field.field.paragraph.2_colonnes_texte.field_texte_gauche_col
+    - paragraphs.paragraphs_type.2_colonnes_texte
+  module:
+    - text
+id: paragraph.2_colonnes_texte.default
+targetEntityType: paragraph
+bundle: 2_colonnes_texte
+mode: default
+content:
+  field_ref_hotels_col:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_texte_droite_col:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_texte_gauche_col:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

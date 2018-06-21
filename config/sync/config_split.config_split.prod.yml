@@ -1,0 +1,15 @@
+uuid: 4200bb02-72fd-4323-aca2-804037282736
+langcode: fr
+status: false
+dependencies: {  }
+id: prod
+label: prod
+folder: config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - 'webform.webform.*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,29 @@
+uuid: b40a3f35-54dd-4729-bedf-8f605674c890
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_classification_restaurant
+    - node.type.restaurant
+    - taxonomy.vocabulary.classification_restaurant
+id: node.restaurant.field_classification_restaurant
+field_name: field_classification_restaurant
+entity_type: node
+bundle: restaurant
+label: 'Classification restaurant'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      classification_restaurant: classification_restaurant
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

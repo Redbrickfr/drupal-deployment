@@ -1,0 +1,9 @@
+uuid: c56d62b0-c395-4e14-95e3-f15a045b54a9
+langcode: fr
+status: true
+dependencies: {  }
+id: 2_colonnes_texte
+label: '2 colonnes texte'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

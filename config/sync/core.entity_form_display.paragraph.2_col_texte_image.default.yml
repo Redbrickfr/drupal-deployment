@@ -1,0 +1,54 @@
+uuid: 97dcbff6-7f81-4434-bd83-fb348071111b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_col_texte_image.field_col_ref_resto
+    - field.field.paragraph.2_col_texte_image.field_img_col_img_txt
+    - field.field.paragraph.2_col_texte_image.field_texte_col_img_txt
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.2_col_texte_image
+  module:
+    - content_moderation
+    - image
+    - text
+id: paragraph.2_col_texte_image.default
+targetEntityType: paragraph
+bundle: 2_col_texte_image
+mode: default
+content:
+  field_col_ref_resto:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_img_col_img_txt:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texte_col_img_txt:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

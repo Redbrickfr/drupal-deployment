@@ -1,0 +1,31 @@
+uuid: ddaa2fbe-b022-43d2-837a-0c859dc86894
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotel_restaurant
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - ive
+id: ive_views_block__hotel_restaurant_block_1
+theme: ive
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:hotel_restaurant-block_1'
+settings:
+  id: 'views_block:hotel_restaurant-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: a031f8be-cf9a-4789-b736-48ec5fde6b8c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte_col_img_txt
+    - paragraphs.paragraphs_type.2_col_texte_image
+  module:
+    - text
+id: paragraph.2_col_texte_image.field_texte_col_img_txt
+field_name: field_texte_col_img_txt
+entity_type: paragraph
+bundle: 2_col_texte_image
+label: 'texte  col img txt'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

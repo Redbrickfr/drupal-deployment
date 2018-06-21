@@ -1,0 +1,22 @@
+uuid: 3bc4aa41-0b46-41ad-8ded-81a2822fac25
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_promo_hotels
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_promo_hotels: true
+  langcode: true

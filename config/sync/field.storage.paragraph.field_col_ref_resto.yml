@@ -1,0 +1,20 @@
+uuid: 9be4e759-c4ef-40d4-a655-d52855d0a2d6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+id: paragraph.field_col_ref_resto
+field_name: field_col_ref_resto
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

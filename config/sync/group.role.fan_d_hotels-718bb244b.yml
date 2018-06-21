@@ -1,0 +1,17 @@
+uuid: 84ef921f-663b-4409-929a-a6b7ac1d3e1e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.fan_d_hotels
+  enforced:
+    config:
+      - user.role.contributeur
+id: fan_d_hotels-718bb244b
+label: Contributeur
+weight: 3
+internal: true
+audience: outsider
+group_type: fan_d_hotels
+permissions_ui: false
+permissions: {  }

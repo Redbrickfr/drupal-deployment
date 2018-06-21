@@ -1,0 +1,28 @@
+uuid: 76dd527e-fb53-437d-9735-31f450d64449
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tweets
+    - media.type.twitter
+    - node.type.article
+id: node.article.field_tweets
+field_name: field_tweets
+entity_type: node
+bundle: article
+label: Tweets
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      twitter: twitter
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

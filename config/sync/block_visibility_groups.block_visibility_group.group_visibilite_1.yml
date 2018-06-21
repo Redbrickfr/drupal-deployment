@@ -1,0 +1,26 @@
+uuid: 9a4ffbab-5055-451f-b24c-f7e0607d3bed
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: group_visibilite_1
+label: 'Hotels groupe visibility'
+logic: or
+conditions:
+  aa4fc276-326a-488f-8ad4-ba1c275c6a8e:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: aa4fc276-326a-488f-8ad4-ba1c275c6a8e
+  47284481-9ab5-4184-87e6-9cba5c170356:
+    id: request_path
+    pages: '/hotels*'
+    negate: false
+    context_mapping: {  }
+    uuid: 47284481-9ab5-4184-87e6-9cba5c170356
+allow_other_conditions: true

@@ -1,0 +1,30 @@
+uuid: e64fd5a4-9f41-4d81-9449-c551b37bab8e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.eck_content_views_test
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - zurbive
+id: views_block__eck_content_views_test_block_1
+theme: zurbive
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:eck_content_views_test-block_1'
+settings:
+  id: 'views_block:eck_content_views_test-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

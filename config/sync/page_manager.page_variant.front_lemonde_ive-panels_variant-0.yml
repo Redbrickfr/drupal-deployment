@@ -1,0 +1,63 @@
+uuid: c994f692-5c63-4b9d-a763-eb3b6784d94c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - page_manager.page.front_lemonde_ive
+    - views.view.lmi_front
+  module:
+    - panels
+    - views
+id: front_lemonde_ive-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    6a08eee3-57ec-4237-b0e9-79f8ebbbe0ae:
+      id: 'views_block:lmi_front-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: first_above
+      weight: -10
+      uuid: 6a08eee3-57ec-4237-b0e9-79f8ebbbe0ae
+      context_mapping: {  }
+    1ff4390f-d11d-446a-8a88-99ce139589ad:
+      id: 'views_block:lmi_front-block_2'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: second_above
+      weight: 0
+      uuid: 1ff4390f-d11d-446a-8a88-99ce139589ad
+      context_mapping: {  }
+    8dc74dc9-5ab8-412a-bb6e-822a9fa51432:
+      id: 'views_block:lmi_front-block_3'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: first_above
+      weight: 0
+      uuid: 8dc74dc9-5ab8-412a-bb6e-822a9fa51432
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 3250d0ce-6972-43d1-a4ca-2645ddaec1e5
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks_ive
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: front_lemonde_ive-panels_variant-0
+  builder: standard
+page: front_lemonde_ive
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

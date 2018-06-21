@@ -1,0 +1,30 @@
+uuid: a57407c0-872c-4efe-8768-3cffaad3ec50
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.hotels
+  module:
+    - block_visibility_groups
+    - system
+  theme:
+    - zurb_foundation
+id: zurb_foundation_hotels
+theme: zurb_foundation
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:hotels'
+settings:
+  id: 'system_menu_block:hotels'
+  label: Hôtels
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

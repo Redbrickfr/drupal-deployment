@@ -1,0 +1,35 @@
+uuid: cc79a5f8-dc7b-455b-b0c8-7cfb6579feeb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.media.twitter.field_media_twitter
+    - media.type.twitter
+  module:
+    - content_moderation
+id: media.twitter.default
+targetEntityType: media
+bundle: twitter
+mode: default
+content:
+  field_media_twitter:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

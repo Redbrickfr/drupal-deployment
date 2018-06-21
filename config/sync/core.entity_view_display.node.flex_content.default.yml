@@ -1,0 +1,30 @@
+uuid: 674184ed-45e3-4c1a-bf9c-89b1796d9934
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.flex_content.field_contenu_flex
+    - node.type.flex_content
+  module:
+    - entity_reference_revisions
+    - user
+id: node.flex_content.default
+targetEntityType: node
+bundle: flex_content
+mode: default
+content:
+  field_contenu_flex:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

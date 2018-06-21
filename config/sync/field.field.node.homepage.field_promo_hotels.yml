@@ -1,0 +1,38 @@
+uuid: aa15abe1-a1db-4f99-84e4-b4a32ba495fe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promo_hotels
+    - node.type.homepage
+    - node.type.hotel
+  content:
+    - 'node:hotel:1dfe79da-2f03-49bd-96a4-6050436a5db5'
+    - 'node:hotel:4d556c26-66d9-4d26-8504-97711835d56b'
+    - 'node:hotel:85dae6c2-9a2c-47ec-852f-dbcbada03182'
+id: node.homepage.field_promo_hotels
+field_name: field_promo_hotels
+entity_type: node
+bundle: homepage
+label: 'Promo hotels'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 4d556c26-66d9-4d26-8504-97711835d56b
+  -
+    target_uuid: 1dfe79da-2f03-49bd-96a4-6050436a5db5
+  -
+    target_uuid: 85dae6c2-9a2c-47ec-852f-dbcbada03182
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

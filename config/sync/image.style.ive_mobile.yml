@@ -1,0 +1,25 @@
+uuid: 01494cdf-8a4c-494f-bda6-7a4ab389a7c0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - tinypng
+third_party_settings:
+  tinypng:
+    tinypng_compress: 1
+name: ive_mobile
+label: 'Ive mobile'
+effects:
+  38dac882-86fa-4dfa-9f76-ab98d3502cd9:
+    uuid: 38dac882-86fa-4dfa-9f76-ab98d3502cd9
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: null
+      upscale: false
+  9247c862-7cd4-49c9-9f4e-f8a939823039:
+    uuid: 9247c862-7cd4-49c9-9f4e-f8a939823039
+    id: image_desaturate
+    weight: 2
+    data: {  }

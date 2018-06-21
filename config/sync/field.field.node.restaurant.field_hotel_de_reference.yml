@@ -1,0 +1,25 @@
+uuid: bf7ac787-4f98-4156-b46e-43ef8472b2ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_de_reference
+    - node.type.restaurant
+id: node.restaurant.field_hotel_de_reference
+field_name: field_hotel_de_reference
+entity_type: node
+bundle: restaurant
+label: 'hotel de reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: reference_hotels
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

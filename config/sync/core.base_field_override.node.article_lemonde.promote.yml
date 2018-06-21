@@ -1,0 +1,22 @@
+uuid: 0f5f05d9-ffae-4536-a45d-3ac7a856a7ef
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article_lemonde
+id: node.article_lemonde.promote
+field_name: promote
+entity_type: node
+bundle: article_lemonde
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

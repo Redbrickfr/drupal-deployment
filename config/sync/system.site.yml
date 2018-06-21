@@ -1,0 +1,15 @@
+uuid: 4b6fb2a6-d6f8-4eda-ba0c-7d57dd8a1a0d
+name: 'Drupal User7 (Modif !)'
+mail: abonsard@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: /search404
+  front: /lemondeive
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

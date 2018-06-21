@@ -1,0 +1,9 @@
+uuid: 064f69c9-33c4-45c0-87a8-a48d84ec9790
+langcode: fr
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.helloecktest
+name: 'helloecktest Article'
+type: helloecktest_article
+description: 'helloecktest Article'

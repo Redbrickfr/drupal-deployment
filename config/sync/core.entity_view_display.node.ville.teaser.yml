@@ -1,0 +1,30 @@
+uuid: 94ef3d15-3bb7-4c34-8f31-03316cd00b98
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ville.body
+    - node.type.ville
+  module:
+    - text
+    - user
+id: node.ville.teaser
+targetEntityType: node
+bundle: ville
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: e10434c2-e4a8-4a27-a66a-831c5cf253e7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+    - link
+id: contact_message.field_liens_vers_votre_site
+field_name: field_liens_vers_votre_site
+entity_type: contact_message
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

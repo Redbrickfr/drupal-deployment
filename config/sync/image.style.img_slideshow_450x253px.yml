@@ -1,0 +1,14 @@
+uuid: d18ce690-bbf0-49e6-aa93-8176520d8c2f
+langcode: fr
+status: true
+dependencies: {  }
+name: img_slideshow_450x253px
+label: 'img slideshow 450x253px'
+effects:
+  5c8a9c36-8ea0-474f-a206-cfc40cc61582:
+    uuid: 5c8a9c36-8ea0-474f-a206-cfc40cc61582
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 450
+      height: 253

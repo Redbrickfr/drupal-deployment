@@ -1,0 +1,20 @@
+uuid: 4fd0b45e-7f17-44de-8f40-1b8cf9de302f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - tinypng
+third_party_settings:
+  tinypng:
+    tinypng_compress: 1
+name: ive
+label: 'Ive narow'
+effects:
+  8b53742b-fd39-48a6-b33d-70b20c66eb13:
+    uuid: 8b53742b-fd39-48a6-b33d-70b20c66eb13
+    id: image_scale
+    weight: 1
+    data:
+      width: 240
+      height: null
+      upscale: false

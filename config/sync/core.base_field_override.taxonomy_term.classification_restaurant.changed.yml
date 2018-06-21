@@ -1,0 +1,18 @@
+uuid: dccf7364-8058-4743-bcc5-87b4e8de1d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.classification_restaurant
+id: taxonomy_term.classification_restaurant.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: classification_restaurant
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

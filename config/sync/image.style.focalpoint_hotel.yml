@@ -1,0 +1,17 @@
+uuid: 90dc0f36-7a82-4abe-9422-e4b06b2d483c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focalpoint_hotel
+label: 'focalpoint hotel'
+effects:
+  641c4b61-2c2e-4937-92b1-fbfb2e8c50d3:
+    uuid: 641c4b61-2c2e-4937-92b1-fbfb2e8c50d3
+    id: focal_point_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      crop_type: focal_point

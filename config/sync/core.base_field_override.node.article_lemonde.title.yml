@@ -1,0 +1,18 @@
+uuid: a729399f-5ae7-4f5d-8f51-7cbc461f76a2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article_lemonde
+id: node.article_lemonde.title
+field_name: title
+entity_type: node
+bundle: article_lemonde
+label: 'Titre article'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

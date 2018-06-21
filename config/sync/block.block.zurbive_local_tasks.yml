@@ -1,0 +1,22 @@
+uuid: 7b29e8e0-0bfd-4826-9bac-363a81facb07
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - zurbive
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: zurbive_local_tasks
+theme: zurbive
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

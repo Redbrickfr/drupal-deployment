@@ -1,0 +1,22 @@
+uuid: e306c12e-e911-47cb-9f90-a5487e799e14
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flex_content.field_contenu_flex
+    - node.type.flex_content
+  module:
+    - user
+id: node.flex_content.teaser
+targetEntityType: node
+bundle: flex_content
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_contenu_flex: true
+  langcode: true

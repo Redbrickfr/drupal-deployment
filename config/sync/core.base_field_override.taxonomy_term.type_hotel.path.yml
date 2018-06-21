@@ -1,0 +1,20 @@
+uuid: 7d2fa1fe-4576-4da3-a8c9-4af86ea16a79
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_hotel
+  module:
+    - path
+id: taxonomy_term.type_hotel.path
+field_name: path
+entity_type: taxonomy_term
+bundle: type_hotel
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

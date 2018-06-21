@@ -1,0 +1,17 @@
+uuid: a5595fc0-3010-45c3-ae80-981f5fc4a53f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'flex content'
+type: flex_content
+description: 'Permet de créer du contenu avec paragraph.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

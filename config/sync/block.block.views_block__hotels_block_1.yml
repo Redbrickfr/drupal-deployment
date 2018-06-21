@@ -1,0 +1,31 @@
+uuid: 80a8fd50-322f-46f7-8f3b-eabce44409ed
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.group_visibilite_1
+    - views.view.hotels
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - bartik
+id: views_block__hotels_block_1
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:hotels-block_1'
+settings:
+  id: 'views_block:hotels-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: group_visibilite_1
+    context_mapping: {  }

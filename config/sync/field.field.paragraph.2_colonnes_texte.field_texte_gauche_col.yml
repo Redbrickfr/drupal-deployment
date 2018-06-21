@@ -1,0 +1,21 @@
+uuid: c75fa52e-e231-4a82-b8cd-7671cc692683
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte_gauche_col
+    - paragraphs.paragraphs_type.2_colonnes_texte
+  module:
+    - text
+id: paragraph.2_colonnes_texte.field_texte_gauche_col
+field_name: field_texte_gauche_col
+entity_type: paragraph
+bundle: 2_colonnes_texte
+label: 'texte gauche col'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

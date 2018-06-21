@@ -1,0 +1,11 @@
+uuid: ff261f03-fd0d-47e3-a9a9-4a30544dedb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_legale
+id: contact_message.contact_legale
+target_entity_type_id: contact_message
+target_bundle: contact_legale
+default_langcode: site_default
+language_alterable: false

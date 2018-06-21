@@ -1,0 +1,22 @@
+uuid: 85e26a22-4cfe-430a-bf5d-b5455451e3b9
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zurbive
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: zurbive_breadcrumbs
+theme: zurbive
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

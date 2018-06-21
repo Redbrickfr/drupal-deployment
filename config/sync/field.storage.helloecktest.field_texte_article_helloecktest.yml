@@ -1,0 +1,23 @@
+uuid: 251aa0f5-3ddc-4eb4-9403-af5d139b51b9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - eck
+    - field_permissions
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: helloecktest.field_texte_article_helloecktest
+field_name: field_texte_article_helloecktest
+entity_type: helloecktest
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

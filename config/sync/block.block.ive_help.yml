@@ -1,0 +1,22 @@
+uuid: 2ef384fd-77e5-4e65-8604-b8fc91990a7d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ive
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ive_help
+theme: ive
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

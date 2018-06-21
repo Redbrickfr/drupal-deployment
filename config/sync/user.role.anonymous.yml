@@ -1,0 +1,19 @@
+uuid: d90f8364-a647-4a18-bbd8-40cc0738b609
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Utilisateur anonyme'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access webprofiler'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view webprofiler toolbar'

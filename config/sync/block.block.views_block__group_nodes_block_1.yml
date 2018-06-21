@@ -1,0 +1,31 @@
+uuid: a6808f3a-f17b-460d-9e60-0a977d5930c1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.group_nodes
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - bartik
+id: views_block__group_nodes_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:group_nodes-block_1'
+settings:
+  id: 'views_block:group_nodes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

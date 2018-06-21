@@ -1,0 +1,9 @@
+uuid: c0c34908-c87a-4de8-84a4-da2006c14590
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Classification restaurant'
+vid: classification_restaurant
+description: ''
+hierarchy: 0
+weight: 0

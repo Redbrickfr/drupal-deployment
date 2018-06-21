@@ -1,0 +1,31 @@
+uuid: 859aa273-79e5-4c9a-9db0-09443d89f7fb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.contenu_par_utilisateur
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - zurb_foundation
+id: zurb_foundation_views_block__contenu_par_utilisateur_block_1
+theme: zurb_foundation
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:contenu_par_utilisateur-block_1'
+settings:
+  id: 'views_block:contenu_par_utilisateur-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

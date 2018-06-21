@@ -1,0 +1,31 @@
+uuid: 2950c360-1c86-43bb-9b15-4fbf79ebb612
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.evenement.body
+    - node.type.evenement
+  module:
+    - text
+    - user
+id: node.evenement.full
+targetEntityType: node
+bundle: evenement
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

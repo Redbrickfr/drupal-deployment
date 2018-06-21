@@ -1,0 +1,9 @@
+uuid: 2ba5ef8e-c3cf-4ec1-b9b1-d8c8044d35d2
+langcode: fr
+status: true
+dependencies: {  }
+name: 'le monde ive nav'
+vid: le_monde_ive_nav
+description: ''
+hierarchy: 0
+weight: 0

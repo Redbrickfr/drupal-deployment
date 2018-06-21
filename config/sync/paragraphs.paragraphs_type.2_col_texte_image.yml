@@ -1,0 +1,9 @@
+uuid: c6ed3676-bcd6-45b2-9903-3311ced019f0
+langcode: fr
+status: true
+dependencies: {  }
+id: 2_col_texte_image
+label: '2 col texte + image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

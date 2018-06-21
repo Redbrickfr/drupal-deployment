@@ -1,0 +1,20 @@
+uuid: 413b26bf-9ee3-4f7b-904d-9a97a2e6cf68
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.flex_content
+id: node.flex_content.uid
+field_name: uid
+entity_type: node
+bundle: flex_content
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

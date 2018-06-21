@@ -1,0 +1,38 @@
+uuid: fe244563-8d2c-4017-a608-4bdbfe334070
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photos_privees
+    - node.type.hotel
+  module:
+    - image
+id: node.hotel.field_photos_privees
+field_name: field_photos_privees
+entity_type: node
+bundle: hotel
+label: 'photos privées'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

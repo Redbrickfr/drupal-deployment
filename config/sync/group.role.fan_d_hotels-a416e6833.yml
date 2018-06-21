@@ -1,0 +1,17 @@
+uuid: 804d24a5-a90c-4afd-b476-52c4a6d8b143
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.fan_d_hotels
+  enforced:
+    config:
+      - user.role.administrator
+id: fan_d_hotels-a416e6833
+label: Administrateur
+weight: 2
+internal: true
+audience: outsider
+group_type: fan_d_hotels
+permissions_ui: false
+permissions: {  }

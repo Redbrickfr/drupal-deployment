@@ -1,0 +1,31 @@
+uuid: 06e1275e-1250-49a7-a96a-2b1d86a1c2df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.hotel_restaurant
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - zurb_foundation
+id: zurb_foundation_views_block__hotel_restaurant_block_1
+theme: zurb_foundation
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:hotel_restaurant-block_1'
+settings:
+  id: 'views_block:hotel_restaurant-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,19 @@
+uuid: 0a314324-76a9-4251-9096-8302c6c47f46
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_description_restaurant
+field_name: field_description_restaurant
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 0b72af96-4246-4aae-ba48-2150677319c1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.content_type.group_content_type_c79c329c71e8a
+id: group_content.group_content_type_c79c329c71e8a.default
+targetEntityType: group_content
+bundle: group_content_type_c79c329c71e8a
+mode: default
+content:
+  entity_id:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  uid: true

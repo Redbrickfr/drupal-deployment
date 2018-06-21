@@ -1,0 +1,18 @@
+uuid: 06ce27d7-a756-46d6-920a-e66fd1160f3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.classification_restaurant
+id: taxonomy_term.classification_restaurant.name
+field_name: name
+entity_type: taxonomy_term
+bundle: classification_restaurant
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 610fe8ba-9a1d-4ae0-8516-0ac08339d2e6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type.ville
+  module:
+    - feeds
+id: node.ville.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: ville
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

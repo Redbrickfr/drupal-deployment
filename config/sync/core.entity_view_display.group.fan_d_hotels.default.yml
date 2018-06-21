@@ -1,0 +1,33 @@
+uuid: 43cf6e05-5401-436e-b6ed-6e837f5d7b8d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group.fan_d_hotels.field_hotels
+    - group.type.fan_d_hotels
+id: group.fan_d_hotels.default
+targetEntityType: group
+bundle: fan_d_hotels
+mode: default
+content:
+  field_hotels:
+    weight: -4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  label:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  langcode: true
+  uid: true

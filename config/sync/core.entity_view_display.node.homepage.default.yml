@@ -1,0 +1,31 @@
+uuid: 30628555-88c3-4e3d-bff6-fd14737414eb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_promo_hotels
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_promo_hotels:
+    weight: 101
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

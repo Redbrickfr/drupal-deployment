@@ -1,0 +1,19 @@
+uuid: 75d5c0a6-2632-421b-963a-b78bbdc24401
+langcode: fr
+status: true
+dependencies:
+  module:
+    - tinypng
+third_party_settings:
+  tinypng:
+    tinypng_compress: 1
+name: lemonde_312x156
+label: 'lemonde 312x156'
+effects:
+  09a72de5-6314-486e-adbe-26e2d91df5a1:
+    uuid: 09a72de5-6314-486e-adbe-26e2d91df5a1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 312
+      height: 156

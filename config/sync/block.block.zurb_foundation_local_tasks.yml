@@ -1,0 +1,22 @@
+uuid: cdd4b4b7-407c-4869-8c14-aaaf50aedddc
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - zurb_foundation
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: zurb_foundation_local_tasks
+theme: zurb_foundation
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

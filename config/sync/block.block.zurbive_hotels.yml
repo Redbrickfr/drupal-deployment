@@ -1,0 +1,30 @@
+uuid: 01b2629e-64d9-4c4e-a670-1f38d2d2d4a6
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.hotels
+  module:
+    - block_visibility_groups
+    - system
+  theme:
+    - zurbive
+id: zurbive_hotels
+theme: zurbive
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:hotels'
+settings:
+  id: 'system_menu_block:hotels'
+  label: Hôtels
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

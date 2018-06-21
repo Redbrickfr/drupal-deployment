@@ -1,0 +1,18 @@
+uuid: fc7bef83-e3ed-4fa6-812b-445452bbf872
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.2_col_texte_image
+id: paragraph.2_col_texte_image.moderation_state
+field_name: moderation_state
+entity_type: paragraph
+bundle: 2_col_texte_image
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

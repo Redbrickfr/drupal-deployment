@@ -1,0 +1,25 @@
+uuid: 8b9b2897-3df1-4c2b-a372-872474fa8b00
+langcode: fr
+status: false
+dependencies:
+  config:
+    - views.view.hotels
+  module:
+    - views
+  theme:
+    - zurbive
+id: zurbive_views_block__hotels_block_2
+theme: zurbive
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:hotels-block_2'
+settings:
+  id: 'views_block:hotels-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

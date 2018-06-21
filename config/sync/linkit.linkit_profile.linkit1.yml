@@ -1,0 +1,25 @@
+uuid: 0e208404-5bdd-4656-830e-5f6946dc837a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: linkit1
+label: linkit1
+description: ''
+attributes:
+  title:
+    id: title
+    weight: 0
+    settings:
+      automatic_title: true
+matchers:
+  28fda52e-e17f-47f1-a339-421a0bf2d6c9:
+    uuid: 28fda52e-e17f-47f1-a339-421a0bf2d6c9
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+      include_unpublished: false

@@ -1,0 +1,18 @@
+uuid: db503959-7e09-4d58-8e58-f52fa62b3bef
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ville
+id: node.ville.title
+field_name: title
+entity_type: node
+bundle: ville
+label: 'Nom de la ville'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

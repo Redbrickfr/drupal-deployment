@@ -1,0 +1,22 @@
+uuid: eba1be49-f1e1-4e49-b5cb-1efb3aa3bfbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.2_col_texte_image
+id: paragraph.2_col_texte_image.status
+field_name: status
+entity_type: paragraph
+bundle: 2_col_texte_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

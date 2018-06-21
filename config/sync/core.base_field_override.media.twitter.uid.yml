@@ -1,0 +1,20 @@
+uuid: ac3b6fb1-2a67-47ba-bbdd-e641b38a8ca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.twitter
+id: media.twitter.uid
+field_name: uid
+entity_type: media
+bundle: twitter
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,28 @@
+uuid: 9873a884-65eb-4bef-8c00-2ae90bc6ca2b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - eck.eck_type.helloecktest.helloecktest_article
+    - field.storage.helloecktest.field_images
+    - media.type.image
+id: helloecktest.helloecktest_article.field_images
+field_name: field_images
+entity_type: helloecktest
+bundle: helloecktest_article
+label: images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: b4c59f70-39cf-4772-a251-21c3faad3688
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_texte_droite_col
+field_name: field_texte_droite_col
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

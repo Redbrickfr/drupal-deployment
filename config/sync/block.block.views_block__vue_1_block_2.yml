@@ -1,0 +1,24 @@
+uuid: ac9398f8-c740-4e11-a29f-365ff04a316d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.vue_1
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__vue_1_block_2
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:vue_1-block_2'
+settings:
+  id: 'views_block:vue_1-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
